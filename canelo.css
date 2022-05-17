@@ -103,13 +103,6 @@ footer{
     max-width: 100%;
     height: auto;
 }
-#imagenes2 img:hover {
-    filter: grayscale(0);
-    transform: scale(1.2);
-    z-index: 2;
-    cursor: pointer;
-    outline: solid 3px white;
-}
 @media (min-width: 480px) and (orientation: landscape){
     body{
         background-color: rgb(235, 168, 124);
