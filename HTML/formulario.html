@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../canelo.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+		<h1>Alimentos Canelo</h1>
+		<nav>
+            <section id="secciones">
+			<ul>
+				<li><a href="../index.html"class="boton">Home</a></li>
+                <li><a href="./productos.html"class="boton">Productos</a></li>
+                <li><a href="./galeria.html"class="boton">Galeria</a></li>
+                <li><a href="./menu-principal.html"class="boton">Nosotros</a></li>
+				<li><a href="./formulario.html"class="boton">Registrate</a></li>
+				<li><a href="https://www.google.com" target="_blank"class="boton">Google</a></li>
+			</ul>
+        </section>
+		</nav>
+	</header>
+    <hr>
+    <form>
+        <section id="colores1">
+        <h2>Formulario</h2>
+        <fieldset>
+            <legend>Datos Solicitados</legend>
+        <label>Nombre</label>
+        <Input type="text" placeholder="Escribe tu nombre" name="Nombre" required /> 
+        <br>
+        <label>Apellido</label>
+        <Input type="text" placeholder="Escribe tu apellido" name="Apellido" required /> 
+        <br>
+        <label>Email</label>
+        <Input type="text" placeholder="Correo electronico" name="Email" required /> 
+        <br>
+        <label>Telefono</label>
+        <Input type="text" placeholder="1122334455" name="Telefono" required />
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Datos de la mascota</legend>
+        <label>Mascota:</label>
+        <label>Perro</label>
+        <input type="radio" name="Mascota"
+        value="Gato"/>
+        <label>Gato</label>
+        <input type="radio" name="Mascota"
+        value="Perro"/>
+        <br>
+        <br>
+        <label>Etapa de vida</label>
+        <select name="Etapa de vida">
+            <option value="kittens">Gatitos</option>
+            <option value="puppies">Cachorros</option>
+            <option value="adults">Adultos</option>
+            <option value="older adults">Adultos Mayores </option>
+            </select>
+        <br>
+        <br>
+        <label>Pedido</label>
+        <textarea name="Pedido realizado">
+        </textarea> 
+        </fieldset>
+        <br>
+        <label>¿Abona con transferencia bancaria?</label>
+        <input type="checkbox" name="Abono con transferencia bancaria"
+        value="Abono con transferencia bancaria"/>
+        <br>
+        <br>
+        <input type="submit" />
+    </section>
+        <hr>
+        <footer id="redes">
+            <div>
+                SEGUINOS A TRAVES DE LAS SIGUIENTES APPS
+            </div>
+            <div>
+            <ul>
+                <li>
+                    Facebook
+                </li>
+                <li>
+                    Instagram
+                </li>
+            </ul>
+            <div>
+                CONTACTANOS DESDE LOS SIGUIENTES MEDIOS
+            </div>
+            <ul>
+                <li>
+                    WhatsApp
+                </li>
+                <li>
+                    Correo Electronico
+                </li>
+            </ul>
+            </div>
+        </footer>         
+      
+    </form>
+</body>
+</html>
