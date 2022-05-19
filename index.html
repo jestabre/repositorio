@@ -8,128 +8,172 @@
     <link rel="stylesheet" href="canelo.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+
     <title>Alimentos Canelo</title>
 </head>
 
 <body>
-    <div id="contenedor">
-        <header>
-            <h1>Alimentos Canelo</h1>
-        </header>
-        <hr>
-        <nav>
-            <section id="secciones">
-                <ul>
-                    <li><a href="index.html" class="boton">Home</a></li>
-                    <li><a href="./HTML/productos.html" class="boton">Productos</a></li>
-                    <li><a href="./HTML/galeria.html" class="boton">Galeria</a></li>
-                    <li><a href="./HTML/menu-principal.html" class="boton">Nosotros</a></li>
-                    <li><a href="./HTML/formulario.html" class="boton">Registrate</a></li>
-                    <li><a href="https://www.google.com" target="_blank" class="boton">Google</a></li>
-                </ul>
-            </section>
-        </nav>
-        <hr>
-        <main>
-            <h2>¿Que es Canelo?</h2>
-            <section id="colores1">
-                <ul>
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis laborum nobis tempore
-                        numquam totam ut ab consequatur.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis laborum nobis tempore
-                        numquam totam ut ab consequatur.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis laborum nobis tempore
-                        numquam totam ut ab consequatur.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis laborum nobis tempore
-                        numquam totam ut ab consequatur.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container d-flex">
+            <a class="navbar-brand me-auto" href="#">
+                <img src=".//HTML/caneloimagen.jpg" height="80px" width="80px" alt="Canelo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
-                    <br>
-                    <div id="imagenes1">
-                        <img id="fotoUno" src="./HTML/caneloimagen.jpg" alt="Canelo">
-                        <img id="fotoUno" src="./HTML/caneloimagen.jpg" alt="Canelo">
-                        <img id="fotoUno" src="./HTML/caneloimagen.jpg" alt="Canelo">
-                        <img id="fotoUno" src="./HTML/caneloimagen.jpg" alt="Canelo">
-                        <img id="fotoUno" src="./HTML/caneloimagen.jpg" alt="Canelo">
-                        <img id="fotoUno" src="./HTML/caneloimagen.jpg" alt="Canelo">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./HTML/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./HTML/galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./HTML/menu-principal.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./HTML/formulario.html">Registrate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <div id="carouselExampleIndicators" class="carousel slide d-none d-sm-block" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./HTML/perro-carrousel-1.jpeg" height="500px" width="1900px" class="d-block w-100" alt="Perro">
+            </div>
+            <div class="carousel-item">
+                <img src="./HTML/perro-carrousel-2.jpeg" height="500px" width="1900px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./HTML/perro-carrousel-3.jpg" height="500px" width="1900px" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <main class="container">
+        <h3>¿Que ofrecemos en Alimentos Canelo?</h3>
+        <section class="row">
+            <div class="col-md-6 col-xl-3 mb-3">
+                <div class="card">
+                    <img src=".//HTML/royal-canin.jpg" height="150px" class="card-img-top" alt="Royal Canin">
+                    <div class="card-body">
+                        <h5 class="card-title">Royal Canin</h5>
+                        <a href="./HTML/productos.html" class="btn btn-primary">Mas información</a>
                     </div>
-                    <br>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis laborum nobis tempore
-                        numquam totam ut ab consequatur.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis laborum nobis tempore
-                        numquam totam ut ab consequatur.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis laborum nobis tempore
-                        numquam totam ut ab consequatur.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis laborum nobis tempore
-                        numquam totam ut ab consequatur.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                        Rerum magni sunt, ipsa eaque aut atque sed fugit natus quod dolorem.
-                    </li>
-                </ul>
-            </section>
-            <hr>
-            <footer id="redes">
-                <p>
-                    SEGUINOS A TRAVES DE LAS SIGUIENTES APPS
-                </p>
-                <div>
-                    <ul>
-                        <li>
-                            Facebook
-                        </li>
-                        <li>
-                            Instagram
-                        </li>
-                    </ul>
-                    <p>
-                        CONTACTANOS DESDE LOS SIGUIENTES MEDIOS
-                    </p>
-                    <ul>
-                        <li>
-                            WhatsApp
-                        </li>
-                        <li>
-                            Correo Electronico
-                        </li>
-                    </ul>
                 </div>
-            </footer>
-        </main>
+            </div>
+            <div class="col-md-6 col-xl-3  mb-3">
+                <div class="card">
+                    <img src=".//HTML/purina.png" height="150px" class="card-img-top" alt="Purina">
+                    <div class="card-body">
+                        <h5 class="card-title">Purina</h5>
+                        <a href="./HTML/productos.html" class="btn btn-primary">Mas información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3 mb-3">
+                <div class="card">
+                    <img src=".//HTML/old prince.png" height="150px" class="card-img-top" alt="Old Prince">
+                    <div class="card-body">
+                        <h5 class="card-title">Old Prince</h5>
+                        <a href="./HTML/productos.html" class="btn btn-primary">Mas información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3  mb-3">
+                <div class="card">
+                    <img src=".//HTML/profesional-vet.png" height="150px" class="card-img-top" alt="Profesional Vet">
+                    <div class="card-body">
+                        <h5 class="card-title">Profesional Vet</h5>
+                        <a href="./HTML/productos.html" class="btn btn-primary">Mas información</a>
+                    </div>
+                </div>
+            </div>
+            <section class="row">
+                <div class="col-md-6 col-xl-3 mb-3">
+                    <div class="card">
+                        <img src=".//HTML/eukanuba.jpg" height="150px" class="card-img-top" alt="Eukanuba">
+                        <div class="card-body">
+                            <h5 class="card-title">Eukanuba</h5>
+                            <a href="./HTML/productos.html" class="btn btn-primary">Mas información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3  mb-3">
+                    <div class="card">
+                        <img src=".//HTML/vital-can.jpg" height="150px" class="card-img-top" alt="Vital Can">
+                        <div class="card-body">
+                            <h5 class="card-title">Vital Can</h5>
+                            <a href="./HTML/productos.html" class="btn btn-primary">Mas información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3 mb-3">
+                    <div class="card">
+                        <img src=".//HTML/dog-selection.png" height="150px" class="card-img-top" alt="Vital Cat">
+                        <div class="card-body">
+                            <h5 class="card-title">Dog Selection</h5>
+                            <a href="./HTML/productos.html" class="btn btn-primary">Mas información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3  mb-3">
+                    <div class="card">
+                        <img src=".//HTML/raza.png" height="150px" class="card-img-top" alt="Raza">
+                        <div class="card-body">
+                            <h5 class="card-title">Raza Alimentos</h5>
+                            <a href="./HTML/productos.html" class="btn btn-primary">Mas información</a>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <div class="col-md-4 d-flex align-items-center">
+                      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                      </a>
+                      <span class="text-muted">© 2021 Company, Inc</span>
+                    </div>
+                
+                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                    </ul>
+                  </footer>
+    </main>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
 
 </html>
