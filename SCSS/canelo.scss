@@ -1,0 +1,71 @@
+$colorPrimario: rgb(175, 15, 127);
+$colorSecundario: orangered;
+$colorTerciario: #f0cba0;
+
+@import 'formato';
+@import 'etiquetas';
+@import 'colores';
+@import 'imagenes';
+
+/*GRID AREA GENERAL*/
+#contenedor {
+    display: grid;
+    grid-template-areas: "Encabezado""Navegacion""Principal""Pie";
+    grid-template-columns: 100%;
+    grid-template-rows: 80px 60px minmax(400px, auto) 50px;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    grid-area: Encabezado;
+}
+
+nav {
+    grid-area: Navegacion;
+}
+
+main {
+    grid-area: Principal;
+}
+
+footer {
+    grid-area: Pie;
+}
+
+/*GRID AREA HOME*/
+#imagenes1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+#imagenes1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*GRID AREA GALERIA*/
+#imagenes2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+#imagenes2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 480px) and (orientation: landscape) {
+    body {
+        background-color: rgb(235, 168, 124);
+    }
+}
+h3,
+h4,
+h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #af0f7f;
+}
