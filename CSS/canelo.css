@@ -99,8 +99,97 @@ p {
   width: 340px;
 }
 
+/* line 10, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+* {
+  text-align: center;
+  list-style: none;
+}
+
+/* line 13, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+h1 {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2.4rem;
+  color: #af0f7f;
+  background-image: url(.//HTML/fondo-perros.jpg);
+  margin: 10px;
+  padding: 5px;
+  height: 40px;
+  width: 100%;
+}
+
+/* line 24, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+#secciones {
+  background-color: #f0cba0;
+}
+
+/* line 27, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+nav ul {
+  display: flex;
+}
+
+/* line 30, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+nav ul li {
+  flex-grow: 1;
+}
+
+/* line 34, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+.boton {
+  padding: 15px;
+  color: #af0f7f;
+  text-decoration: none;
+}
+
+/* line 39, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+.boton:hover {
+  text-decoration: none;
+  color: orangered;
+}
+
+/* line 43, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.5rem;
+  color: orangered;
+  background: #af0f7f;
+  margin: 10px;
+  padding: 5px;
+  border: solid 1px orangered;
+  height: 30px;
+}
+
+/* line 53, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+#colores1 {
+  background-color: #f0cba0;
+}
+
+/* line 56, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+#lista {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 60, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+#fotoUno {
+  height: 300px;
+  width: 340px;
+}
+
+/* line 64, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+  color: #af0f7f;
+  font-weight: bold;
+}
+
+/* line 70, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+#redes {
+  background-color: #c3e9eb;
+}
+
 /*GRID AREA GENERAL*/
-/* line 11, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+/* line 74, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
 #contenedor {
   display: grid;
   grid-template-areas: "Encabezado" "Navegacion" "Principal" "Pie";
@@ -111,62 +200,62 @@ p {
   margin: auto;
 }
 
-/* line 21, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+/* line 84, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
 header {
   grid-area: Encabezado;
 }
 
-/* line 25, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+/* line 88, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
 nav {
   grid-area: Navegacion;
 }
 
-/* line 29, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+/* line 92, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
 main {
   grid-area: Principal;
 }
 
-/* line 33, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+/* line 96, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
 footer {
   grid-area: Pie;
 }
 
 /*GRID AREA HOME*/
-/* line 38, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+/* line 101, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
 #imagenes1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
 
-/* line 44, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+/* line 107, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
 #imagenes1 img {
   max-width: 100%;
   height: auto;
 }
 
 /*GRID AREA GALERIA*/
-/* line 50, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+/* line 113, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
 #imagenes2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
 }
 
-/* line 56, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+/* line 119, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
 #imagenes2 img {
   max-width: 100%;
   height: auto;
 }
 
 @media (min-width: 480px) and (orientation: landscape) {
-  /* line 62, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+  /* line 125, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
   body {
     background-color: #eba87c;
   }
 }
 
-/* line 66, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+/* line 129, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
 h3,
 h4,
 h5 {
