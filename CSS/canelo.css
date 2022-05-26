@@ -1,116 +1,169 @@
-*{text-align: center;
-    list-style: none;
-    }
-    h1{
-        text-align: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 2.4rem;
-        color: rgb(175, 15, 127);
-        background-image: url(.//HTML/fondo-perros.jpg);
-        margin: 10px;
-        padding: 5px;
-        height: 40px;
-        width: 100%
-    }
-    #secciones{
-        background-color:rgb(243, 233, 192)
-    }
-    nav ul{
-        display: flex;
-    }
-    nav ul li{
-        flex-grow: 1;
-    
-    }
-    .boton{
-        padding: 15px;
-        color:rgb(175, 15, 127);
-        text-decoration:none;
-    }
-    .boton:hover{
-        text-decoration:none;
-        color: orangered
-    }
-    h2{
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     font-size: 1.5rem;
-    color: rgb(253, 131, 50);
-    background: rgb(175, 15, 127);
-    margin: 10px;
-    padding: 5px;
-    border: solid 1px rgb(253, 131, 50);
-    height: 30px;
-    }
-    #colores1{
-        background-color: rgb(240, 203, 160);
-    }
-    #lista{
-        display: flex;
-        justify-content: center;
-    }
-    #fotoUno{
-        height: 300px;
-        width: 340px;
-    }
-    p{
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1rem;
-       color: rgb(175, 15, 127);
-       font-weight: bold;  
-    }
-    #redes{
-        background-color: rgb(195, 233, 235);
-    }
-    /*GRID AREA GENERAL*/
-    #contenedor{
-        display: grid;
-        grid-template-areas: "Encabezado" "Navegacion" "Principal" "Pie";
-        grid-template-columns: 100%;
-        grid-template-rows: 80px 60px minmax(400px, auto) 50px;
-        max-width: 1000px;
-        width: 100%;
-        margin: auto;
-    }
-    header{
-        grid-area: Encabezado;
-    }
-    nav{
-        grid-area: Navegacion;
-    }
-    main{
-        grid-area: Principal;
-    }
-    footer{
-        grid-area: Pie;
-    }
-    /*GRID AREA HOME*/
-    #imagenes1{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap: 10px;
-    }
-    #imagenes1 img{
-        max-width: 100%;
-        height: auto;
-    }
-    /*GRID AREA GALERIA*/
-    #imagenes2{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        gap: 5px;
-    }
-    #imagenes2 img{
-        max-width: 100%;
-        height: auto;
-    }
-    @media (min-width: 480px) and (orientation: landscape){
-        body{
-            background-color: rgb(235, 168, 124);
-        }
-    }
+/* FORMATOS DE LA WEB */
+/* line 3, ../../../../../Desktop/canelo-estabre/SCSS/_formato.scss */
+* {
+  text-align: center;
+  list-style: none;
+}
+
+/* line 8, ../../../../../Desktop/canelo-estabre/SCSS/_formato.scss */
+nav ul {
+  display: flex;
+}
+
+/* line 12, ../../../../../Desktop/canelo-estabre/SCSS/_formato.scss */
+nav ul li {
+  flex-grow: 1;
+}
+
+/* line 17, ../../../../../Desktop/canelo-estabre/SCSS/_formato.scss */
+.boton {
+  padding: 15px;
+  color: #af0f7f;
+  text-decoration: none;
+}
+
+/* line 23, ../../../../../Desktop/canelo-estabre/SCSS/_formato.scss */
+.boton:hover {
+  text-decoration: none;
+  color: orangered;
+}
+
+/* line 28, ../../../../../Desktop/canelo-estabre/SCSS/_formato.scss */
+#lista {
+  display: flex;
+  justify-content: center;
+}
+
+/* ETIQUETAS DE LA WEB */
+/* line 2, ../../../../../Desktop/canelo-estabre/SCSS/_etiquetas.scss */
+h1 {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2.4rem;
+  color: #af0f7f;
+  background-image: url(.//HTML/fondo-perros.jpg);
+  margin: 10px;
+  padding: 5px;
+  height: 40px;
+  width: 100%;
+}
+
+/* line 14, ../../../../../Desktop/canelo-estabre/SCSS/_etiquetas.scss */
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.5rem;
+  color: #fd8332;
+  background: #af0f7f;
+  margin: 10px;
+  padding: 5px;
+  border: solid 1px #fd8332;
+  height: 30px;
+}
+
+/* line 25, ../../../../../Desktop/canelo-estabre/SCSS/_etiquetas.scss */
 h3,
 h4,
 h5 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(175, 15, 127);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #af0f7f;
 }
+
+/* COLORES DE LA WEB */
+/* line 6, ../../../../../Desktop/canelo-estabre/SCSS/_colores.scss */
+#secciones {
+  background-color: #f0cba0;
+}
+
+/* line 10, ../../../../../Desktop/canelo-estabre/SCSS/_colores.scss */
+#colores1 {
+  background-color: #f0cba0;
+}
+
+/* line 14, ../../../../../Desktop/canelo-estabre/SCSS/_colores.scss */
+#redes {
+  background-color: #c3e9eb;
+}
+
+/* line 17, ../../../../../Desktop/canelo-estabre/SCSS/_colores.scss */
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+  color: #af0f7f;
+  font-weight: bold;
+}
+
+/* IMAGENES DE LA WEB */
+/* line 3, ../../../../../Desktop/canelo-estabre/SCSS/_imagenes.scss */
+#fotoUno {
+  height: 300px;
+  width: 340px;
+}
+
+/*GRID AREA GENERAL*/
+/* line 12, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+#contenedor {
+  display: grid;
+  grid-template-areas: "Encabezado" "Navegacion" "Principal" "Pie";
+  grid-template-columns: 100%;
+  grid-template-rows: 80px 60px minmax(400px, auto) 50px;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+/* line 22, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+header {
+  grid-area: Encabezado;
+}
+
+/* line 26, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+nav {
+  grid-area: Navegacion;
+}
+
+/* line 30, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+main {
+  grid-area: Principal;
+}
+
+/* line 34, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+footer {
+  grid-area: Pie;
+}
+
+/*GRID AREA HOME*/
+/* line 39, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+#imagenes1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* line 45, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+#imagenes1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*GRID AREA GALERIA*/
+/* line 51, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+#imagenes2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+/* line 57, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+#imagenes2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 480px) and (orientation: landscape) {
+  /* line 63, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
+  body {
+    background-color: #eba87c;
+  }
+}
+
+/*# sourceMappingURL=canelo.css.map */
