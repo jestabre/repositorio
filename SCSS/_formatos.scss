@@ -1,5 +1,5 @@
-/* FORMATOS DE LA WEB */
 
+/* FORMATOS DE LA WEB */
 * {
     text-align: center;
     list-style: none;
@@ -21,6 +21,7 @@ nav ul li {
 }
 
 .boton:hover {
+    @extend .boton;
     text-decoration: none;
     color: $colorSecundario
 }

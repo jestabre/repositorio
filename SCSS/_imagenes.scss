@@ -1,6 +1,11 @@
 /* IMAGENES DE LA WEB */
 
+
+@mixin tamaño($ancho, $alto) {
+    height: $alto;
+    width: $ancho;
+}
+
 #fotoUno {
-    height: 300px;
-    width: 340px;
+    @include tamaño(340px, 300px);
 }
