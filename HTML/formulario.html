@@ -6,105 +6,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="¡Registrate en nuestra pagina web y conoce todos los beneficios que tenemos para vos!">
     <link rel="stylesheet" href="../CSS/canelo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Alimentos Canelo - Registro de tu mascota</title>
 </head>
 <body>
-    <header>
-		<h1>Alimentos Canelo</h1>
-		<nav>
-            <section id="secciones">
-			<ul>
-				<li><a href="../index.html"class="boton">Home</a></li>
-                <li><a href="./productos.html"class="boton">Productos</a></li>
-                <li><a href="./galeria.html"class="boton">Galeria</a></li>
-                <li><a href="./menu-principal.html"class="boton">Nosotros</a></li>
-				<li><a href="./formulario.html"class="boton">Registrate</a></li>
-				<li><a href="https://www.google.com" target="_blank"class="boton">Google</a></li>
-			</ul>
-        </section>
-		</nav>
-	</header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container d-flex">
+            <a class="navbar-brand me-auto" href="../index.html">
+                <img src="..//HTML/caneloimagen.jpg" height="80px" width="80px" alt="Canelo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./menu-principal.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./formulario.html">Registrate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <hr>
-    <form>
-        <section id="colores1">
-        <h2 class="animate__animated animate__infinite animate__pulse">Formulario</h2>
-        <fieldset>
-            <legend>Datos Solicitados</legend>
-        <label>Nombre</label>
-        <Input type="text" placeholder="Escribe tu nombre" name="Nombre" required /> 
-        <br>
-        <label>Apellido</label>
-        <Input type="text" placeholder="Escribe tu apellido" name="Apellido" required /> 
-        <br>
-        <label>Email</label>
-        <Input type="text" placeholder="Correo electronico" name="Email" required /> 
-        <br>
-        <label>Telefono</label>
-        <Input type="text" placeholder="1122334455" name="Telefono" required />
-        </fieldset>
-        <br>
-        <br>
-        <fieldset>
-            <legend>Datos de la mascota</legend>
-        <label>Mascota:</label>
-        <label>Perro</label>
-        <input type="radio" name="Mascota"
-        value="Gato"/>
-        <label>Gato</label>
-        <input type="radio" name="Mascota"
-        value="Perro"/>
-        <br>
-        <br>
-        <label>Etapa de vida</label>
-        <select name="Etapa de vida">
-            <option value="kittens">Gatitos</option>
-            <option value="puppies">Cachorros</option>
-            <option value="adults">Adultos</option>
-            <option value="older adults">Adultos Mayores </option>
-            </select>
-        <br>
-        <br>
-        <label>Pedido</label>
-        <textarea name="Pedido realizado">
-        </textarea> 
-        </fieldset>
-        <br>
-        <label>¿Abona con transferencia bancaria?</label>
-        <input type="checkbox" name="Abono con transferencia bancaria"
-        value="Abono con transferencia bancaria"/>
-        <br>
-        <br>
-        <input type="submit" />
-        <input type="reset" />
-    </section>
+    <main class="containerDos">
+    <legend>Datos Solicitados</legend>
+<form class="row g-2 needs-validation" novalidate>
+    <div class="col-md-6">
+      <label for="validationCustom01" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="Escribe tu nombre" required>
+      <div class="valid-feedback">¡Genial!</div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationCustom02" class="form-label">Apellido</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Escribe tu apellido" required>
+      <div class="valid-feedback">¡Genial!</div>
+    </div>
+    <br>
+    <div class="col-md-6">
+      <label for="validationCustomUsername" class="form-label">Email</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">@</span>
+        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="Correo electronico" required>
+        <div class="invalid-feedback">Ingresa tu email</div>
+      </div>
+    </div>
+    <div class="col-md-6">
+        <label for="validationCustom02" class="form-label">Telefono</label>
+        <input type="text" class="form-control" id="validationCustom02" placeholder="1122334455" required>
+        <div class="valid-feedback">¡Genial!</div>
+      </div>
+      <legend>Datos de la mascota</legend>
+      <div class="col-12">
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">Perro</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Gato</label>
+      </div>
+    </div>
+      <div class="col-md-2">
+        <label for="validationCustom04" class="form-label">Etapa de vida</label>
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Seleccione</option>
+          <option>Gatitos</option>
+          <option>Cachorros</option>
+          <option>Adultos</option>
+          <option>Adultos Mayores</option>
+        </select>
+        <div class="invalid-feedback">
+          Seleccionar etapa de vida
+        </div>
+      </div>
+      <div class="mb-1">
+        <label for="exampleFormControlTextarea1" class="form-label">Pedido</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">¿Abona con transferencia bancaria?</label>
+      </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">Acepto los terminos y condiciones</label>
+        <div class="invalid-feedback">
+          You must agree before submitting.
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Enviar</button>
+    </div>
+    </div>
+</main>
         <hr>
-        <footer id="redes">
-            <div>
-                SEGUINOS A TRAVES DE LAS SIGUIENTES APPS
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+              <span class="text-muted">© 2021 Company, Inc</span>
             </div>
-            <div>
-            <ul>
-                <li>
-                    Facebook
-                </li>
-                <li>
-                    Instagram
-                </li>
-            </ul>
-            <div>
-                CONTACTANOS DESDE LOS SIGUIENTES MEDIOS
-            </div>
-            <ul>
-                <li>
-                    WhatsApp
-                </li>
-                <li>
-                    Correo Electronico
-                </li>
-            </ul>
-            </div>
-        </footer>         
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"> <img src="../HTML/Twitter.png" width="34" height="34" alt=" Twitter"><svg class="bi" width="24" height="24">
+                            <use xlink: href= "#twitter"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><img src="../HTML/Facebook.png" width="34" height="34" alt="Facebook"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#instagram"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><img src="../HTML/Whatsapp.png" width="34" height="34" alt="Whatsapp"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#whatsapp"></use>
+                        </svg></a></li>
+    
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+            </script>
       
     </form>
 </body>
