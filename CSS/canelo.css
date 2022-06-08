@@ -1,34 +1,40 @@
 /* FORMATOS DE LA WEB */
 /* line 3, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
-* {
+.container {
   text-align: center;
   list-style: none;
 }
 
-/* line 8, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
+/* line 7, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
+.containerUno {
+  text-align: center;
+  list-style: none;
+}
+
+/* line 12, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
 nav ul {
   display: flex;
 }
 
-/* line 12, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
+/* line 16, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
 nav ul li {
   flex-grow: 1;
 }
 
-/* line 17, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
+/* line 21, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
 .boton, .boton:hover {
   padding: 15px;
   color: #af0f7f;
   text-decoration: none;
 }
 
-/* line 23, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
+/* line 27, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
 .boton:hover {
   text-decoration: none;
   color: orangered;
 }
 
-/* line 29, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
+/* line 33, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
 #lista {
   display: flex;
   justify-content: center;
