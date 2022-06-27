@@ -11,30 +11,30 @@
   list-style: none;
 }
 
-/* line 12, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
+/* line 11, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
 nav ul {
   display: flex;
 }
 
-/* line 16, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
+/* line 15, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
 nav ul li {
   flex-grow: 1;
 }
 
-/* line 21, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
+/* line 20, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
 .boton, .boton:hover {
   padding: 15px;
   color: #af0f7f;
   text-decoration: none;
 }
 
-/* line 27, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
+/* line 26, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
 .boton:hover {
   text-decoration: none;
   color: orangered;
 }
 
-/* line 33, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
+/* line 32, ../../../../../Desktop/canelo-estabre/SCSS/_formatos.scss */
 #lista {
   display: flex;
   justify-content: center;
@@ -78,9 +78,10 @@ h2 {
   background: #af0f7f;
   padding: 5px;
   border: solid 1px #fd8332;
+  text-align: center;
 }
 
-/* line 39, ../../../../../Desktop/canelo-estabre/SCSS/_etiquetas.scss */
+/* line 40, ../../../../../Desktop/canelo-estabre/SCSS/_etiquetas.scss */
 h3,
 h4,
 h5 {
