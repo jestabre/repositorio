@@ -48,7 +48,42 @@
       </div>
     </div>
   </nav>
-  <legend>Datos Solicitados</legend>
+  <div id="carouselExampleIndicators" class="carousel slide d-none d-sm-block" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../HTML/carrousel/perro-carrousel-1.jpeg" height="500px" width="1900px" class="d-block w-100"
+                alt="Perro">
+        </div>
+        <div class="carousel-item">
+            <img src="../HTML/carrousel/perro-carrousel-2.jpeg" height="500px" width="1900px" class="d-block w-100"
+                alt="perro">
+        </div>
+        <div class="carousel-item">
+            <img src="../HTML/carrousel/perro-carrousel-3.jpg" height="500px" width="1900px" class="d-block w-100"
+                alt="perro">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<hr>
+  <h2>Datos Solicitados</h2>
   <form class="row g-2 needs-validation" novalidate>
     <div class="col-md-6">
       <label for="validationCustom01" class="form-label">Nombre</label>
@@ -75,7 +110,7 @@
       <input type="text" class="form-control" id="validationCustom02" placeholder="1122334455" required>
       <div class="valid-feedback">¡Genial!</div>
     </div>
-    <legend>Datos de la mascota</legend>
+    <h2>Datos de la mascota</h2>
     <div class="col-12">
       <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
