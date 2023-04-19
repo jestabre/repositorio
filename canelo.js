@@ -56,6 +56,8 @@ const misMarcas = [
 ];
 
 let respuestaUsuario = "";
+let suma = 0;
+let subtotal = 0;
 /* El usuario debe colocar el producto por el cual está interesado */
 do {
   let productoAlimento = prompt(
@@ -69,6 +71,8 @@ do {
     /* Si el resultado es correcto, a traves de un alert se indicará el producto seleccionado y su precio */
     alert("Ofrecemos el bolson de " + productoABuscar.toString());
     console.log("los datos del producto seleccionado por el usuario son", productoABuscar);
+    /* Se crea la variable "subtotal", la cual nos permitirá sumar los productos que el usuario decida seleccionar para su compra */
+    subtotal += productoABuscar.precio;
   } else {
     /* Caso que sea incorrecto, se le indicará al usuario que coloque un producto valido */
     alert(
@@ -82,5 +86,10 @@ do {
   respuestaUsuario = prompt(
     "¿Desea agregar otro producto a su compra? Escriba Si o No"
   );
-  /* Si se niega, finalizará el simulador */
+  /* Si se niega, nos dará el resultado final de los productos que seleccionó el cliente */
 } while (respuestaUsuario.toUpperCase() !== "NO");
+
+/* Se aplica la suma y el subtotal. Una vez sumado, el resultado será visualizado en la consola */
+suma += subtotal;
+
+console.log("La suma de los productos seleccionados por el usuario da un total de ", subtotal);
