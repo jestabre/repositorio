@@ -92,4 +92,4 @@ do {
 /* Se aplica la suma y el subtotal. Una vez sumado, el resultado será visualizado en la consola */
 suma += subtotal;
 
-console.log("La suma de los productos seleccionados por el usuario da un total de ", subtotal);
+console.log("La suma de los productos seleccionados por el usuario da un total de $", subtotal);
