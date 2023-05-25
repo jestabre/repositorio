@@ -1,0 +1,38 @@
+[
+    {
+      "precio": 7200,
+      "id": 1,
+      "title": "Royal Canin Siamese Adult",
+      "thumbnailUrl": "https://cdn.royalcanin-weshare-online.io/UVYJLYYBBKJuub5qQvbs/v13/ar-l-siamese-seco-fbn-01?w=250&"
+    },
+    {
+      "precio": 5320,
+      "id": 2,
+      "title": "Royal Canin Urinary Care",
+      "thumbnailUrl": "https://cdn.royalcanin-weshare-online.io/VefGLIYBaPOZra8qNPhb/v7/ar-l-urinary-seco-fcn-01?w=250&"
+    },
+    {
+      "precio": 7500,
+      "id": 3,
+      "title": "Royal Canin Hair & Skin Care",
+      "thumbnailUrl": "https://cdn.royalcanin-weshare-online.io/UOe1LIYBaPOZra8qv_hE/v7/ar-l-hair-skin-seco-fcn-01?w=250&"
+    },
+    {
+      "precio": 9300,
+      "id": 4,
+      "title": "Royal Canin Exigent",
+      "thumbnailUrl": "https://cdn.royalcanin-weshare-online.io/7T90LIYBRYZmsWpcdvGT/v7/ar-l-exigent-seco-fhn-01?w=250&"
+    },
+    {
+      "precio": 6480,
+      "id": 5,
+      "title": "Royal Canin Appetite Control Care",
+      "thumbnailUrl": "https://cdn.royalcanin-weshare-online.io/O1aoLIYBBKJuub5qtPaA/v7/ar-l-appetite-control-seco-fcn-01?w=250&"
+    },
+    {
+      "precio": 6210,
+      "id": 6,
+      "title": "Royal Canin Indoor",
+      "thumbnailUrl": "https://cdn.royalcanin-weshare-online.io/8j-CLIYBRYZmsWpcGfF-/v7/ar-l-indoor-seco-fhn-01?w=250&"
+    }
+  ]
