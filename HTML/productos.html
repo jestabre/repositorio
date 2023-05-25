@@ -83,6 +83,11 @@
         </button>
     </div>
     <hr>
+    <select id="selectAnimal">
+  <option value="perro">Perro</option>
+  <option value="gato">Gato</option>
+</select>
+</select>   
     <div class="container">
         <h4>Carrito de compras</h4>
         <table class="table">
@@ -102,6 +107,8 @@
                 </tr>
             </tfoot>
         </table>
+        <button id="finalizar-compra" class="btn btn-primary" onclick="location.href='./formulario.html'">Finalizar compra</button>
+
         <h4>Bolsones</h4>
         <div class="row" id="cards"></div>
     </div>
@@ -147,7 +154,8 @@
         </div>
     </template>
 
-    <script src="/canelo.js"></script>
+    <script src="/productos.js"></script>
+    <script src="/formulario.js"></script>
 </body>
 
 </html>
@@ -159,7 +167,7 @@
                 <use xlink:href="#bootstrap"></use>
             </svg>
         </a>
-        <span class="text-muted">© 2021 Company, Inc</span>
+        <span class="text-muted">©️ 2021 Company, Inc</span>
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
