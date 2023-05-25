@@ -1,0 +1,38 @@
+[
+  {
+    "precio": 6500,
+    "id": 1,
+    "title": "Royal Canin Weight Care",
+    "thumbnailUrl": "https://cdn.royalcanin-weshare-online.io/a1byMYYBBKJuub5qOfb9/v7/ar-l-medium-weigth-care-seco-ccn-01?w=250&"
+  },
+  {
+    "precio": 7200,
+    "id": 2,
+    "title": "Royal Canin Boxer Adult",
+    "thumbnailUrl": "https://cdn.royalcanin-weshare-online.io/aFYgo3sBBKJuub5ql75A/v15/ar-l-producto-boxer-adulto-breed-health-nutrition-seco?w=250&"
+  },
+  {
+    "precio": 8100,
+    "id": 3,
+    "title": "Royal Canin Maxi Castrados",
+    "thumbnailUrl": "https://cdn.royalcanin-weshare-online.io/YFZyMYYBBKJuub5qp_ab/v7/ar-l-maxi-castrados-sterilised-seco-ccn-01?w=250&"
+  },
+  {
+    "precio": 7400,
+    "id": 4,
+    "title": "Royal Canin Dachshund Adult",
+    "thumbnailUrl": "https://cdn.royalcanin-weshare-online.io/tz9LjXcBRYZmsWpch6XS/v11/ar-l-producto-dachshund-adult-size-health-nutrition-seco?w=250&"
+  },
+  {
+    "precio": 6900,
+    "id": 5,
+    "title": "Royal Canin Pug Adult",
+    "thumbnailUrl": "https://cdn.royalcanin-weshare-online.io/3D8KZn8BRYZmsWpcvdNH/v13/ar-l-producto-pug-adult-size-health-nutrition-seco?w=250&"
+  },
+  {
+    "precio": 9100,
+    "id": 6,
+    "title": "Royal Canin Mini Exigent",
+    "thumbnailUrl": "https://cdn.royalcanin-weshare-online.io/w1bvW4YBBKJuub5qkPb9/v7/ar-l-mini-exigent-seco-ccn-01-1?w=250&"
+  }
+]
