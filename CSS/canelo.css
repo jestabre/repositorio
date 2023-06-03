@@ -40,6 +40,22 @@ nav ul li {
   justify-content: center;
 }
 
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.notification.show {
+  opacity: 1;
+}
+
 /* ETIQUETAS DE LA WEB */
 /* line 11, ../../../../../Desktop/canelo-estabre/SCSS/_etiquetas.scss */
 .contenedor-h1 {
@@ -88,6 +104,9 @@ h5 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #af0f7f;
 }
+.btn-finalizar {
+  float: right;
+}
 
 /* COLORES DE LA WEB */
 /* line 6, ../../../../../Desktop/canelo-estabre/SCSS/_colores.scss */
@@ -120,7 +139,7 @@ p {
   width: 340px;
 }
 
-/*GRID AREA GENERAL*/
+/* GRID AREA GENERAL/
 /* line 12, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
 #contenedor {
   display: grid;
@@ -152,7 +171,7 @@ footer {
   grid-area: Pie;
 }
 
-/*GRID AREA HOME*/
+/* GRID AREA HOME/
 /* line 39, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
 #imagenes1 {
   display: grid;
@@ -166,7 +185,7 @@ footer {
   height: auto;
 }
 
-/*GRID AREA GALERIA*/
+/* GRID AREA GALERIA/
 /* line 51, ../../../../../Desktop/canelo-estabre/SCSS/canelo.scss */
 #imagenes2 {
   display: grid;
