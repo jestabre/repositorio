@@ -16,3 +16,9 @@ Tercera pre entrega: DOM, Eventos y Storage & JSON
 Estabre Gustavo Julián
 
 En esta tercer pre-entrega modifiqué todo mi Js, eliminando alerts como console logs, para poder aplicar un carrito de compras. En el mismo el usuario puede interacturar con el producto que desea comprar, seleccionandolo y agregando más productos a su compra y chequeando el precio del mismo y el total final en caso de haber agregado más de uno. El carrito de compras se ubica agregado en la sección PRODUCTOS.
+
+Curso de Javascript
+Entrega Proyecto Final
+Estabre Gustavo Julián
+
+En esta ultima entrega decidí darle mas interactividad a mi pagina web, permitiendole elegir al usuario la posibilidad de seleccionar productos tanto de perro como de gato y por medio de un boton de "Finalizar compra", enviarlo a una sección donde podrá completar sus datos personales y de contacto y asegurar el pago a traves de transferencia bancaria o efectivo. Una vez enviado el formulario con los campos completos, saltará una alerta que indicará que el pedido fue tomado correctamente.
