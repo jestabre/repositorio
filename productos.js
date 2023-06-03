@@ -52,6 +52,15 @@ const addCarrito = e => {
     e.stopPropagation()
 }
 
+const showNotification = (message) => {
+    const notification = document.getElementById('notification');
+    notification.textContent = message;
+    notification.classList.add('show');
+  
+    setTimeout(() => {
+        notification.classList.remove('show');
+    }, 3000);
+};
 const setCarrito = item => {
     const producto = {
         title: item.querySelector('h5').textContent,
@@ -66,7 +75,10 @@ const setCarrito = item => {
 
     carrito[producto.id] = { ...producto }
 
-    pintarCarrito()
+    pintarCarrito();
+
+    const mensaje = `Usted agregó "${producto.title}" a su pedido`;
+    showNotification(mensaje);
 }
 
 const pintarCarrito = () => {
@@ -91,6 +103,11 @@ const pintarCarrito = () => {
 
     const actualizarBotonFinalizarCompra = () => {
         const botonFinalizarCompra = document.querySelector('#finalizar-compra');
+        botonFinalizarCompra.addEventListener('click', () => {
+            carrito = {};
+            pintarCarrito();
+            actualizarBotonFinalizarCompra();
+        });
         if (Object.keys(carrito).length === 0) {
           botonFinalizarCompra.style.display = 'none';
         } else {
